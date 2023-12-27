@@ -12,7 +12,7 @@ import Project from './components/pages/Project'
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
      <Container customClass="min-height">
       <Routes>
           <Route path="/" element={<Home />}></Route>
